@@ -1,0 +1,6 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="return_date">Return Date:</label>
+    <input type="date" name="return_date" required>
+    <button type="submit">Return Bicycle</button>
+</form>
